@@ -1,0 +1,48 @@
+    .Fan{
+      perspective: 100px;
+      margin-top: 10px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+   #On:hover ~ svg{
+   transform: rotate(360deg);
+   transition-duration: 5s;
+   transition-property: all;
+
+   }
+   #One:hover ~ svg{
+   transform: rotate(3600deg);
+   transition-duration: 30s;
+   transition-property: all;
+
+   }
+   #Two:hover ~ svg{
+    transform: rotate(3600deg);
+    transition-property: all;
+    transition-duration: 20s;
+   }
+   #Three:hover ~ svg{
+    transform: rotate(3600deg);
+    transition-property: all;
+    transition-duration: 15s;
+   }
+   #Four:hover ~ svg{
+    transform: rotate(3600deg);
+    transition-property: all;
+    transition-duration: 10s;
+   }
+   #Five:hover ~ svg{
+    transform: rotate(3600deg);
+    transition-property: all;
+    transition-duration: 5s;
+   }
+   #Off:hover ~ svg{
+    transform: rotate(360deg);
+    transition-property: all;
+    transition-duration: 0s;
+   }
+    svg{
+        width: 300px;
+        height: 200px;
+
+    }
